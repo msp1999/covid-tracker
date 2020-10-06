@@ -1,4 +1,4 @@
-Live Preview at : covid-19-tracker-web.app
+Live Preview at : https://covid-19-tracker-msp.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
