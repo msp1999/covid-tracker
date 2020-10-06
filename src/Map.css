@@ -1,0 +1,46 @@
+.map {
+    height: 500px;
+    background-color: white;
+    padding: .7rem;
+    /* border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; */
+    margin-top: 16px;
+    background-color:rgba(0, 0, 0, 0.3);
+    /* backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(px); */
+}
+.map .leaflet-container {
+    height: 100%;
+    /* border-radius: 15px; */
+}
+.info-flag {
+    margin-left: -5px;
+    width: 50%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    /* background-repeat: no-repeat; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.info-name {
+    margin-left: -5px;
+
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+.info-confirmed,
+.info-recovered,
+.info-deaths{
+    font-size: 16px;
+    margin-top: 5px;
+}
